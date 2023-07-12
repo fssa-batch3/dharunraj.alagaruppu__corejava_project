@@ -13,7 +13,7 @@ public class PolygonTest {
 			System.out.println("Area of Rightangledtriangle : "+ratt.calculateArea());
 			System.out.println( "Circumference of Rightangledtriangle : " + ratt.circumference());
 
-			;
+			
 
 		} catch (Exception e) {
 			e.printStackTrace();

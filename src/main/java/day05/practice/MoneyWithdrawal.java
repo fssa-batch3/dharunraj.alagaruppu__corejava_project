@@ -7,8 +7,8 @@ public class MoneyWithdrawal {
 		ATM icciATM = new IciciATM();
 		
 		Account icciAccount = new Account();
-		icciAccount.setAccNo("1234");
-		icciAccount.setBalance(15000);
+		icciAccount.setAccNo("1234567890123456");
+		icciAccount.setBalance(20000);
 
 		System.out.println("Icici Bank");
 

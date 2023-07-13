@@ -7,7 +7,7 @@ public class AxisATM implements ATM {
 
 		if (amount < 0) {
 
-			throw new Exception("Amount is not to be zero");
+			throw new Exception("Amount is not to be less than zero");
 		}
 
 		account.setBalance(account.getBalance() + amount);

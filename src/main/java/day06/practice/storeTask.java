@@ -28,7 +28,7 @@ import java.util.ArrayList;
 	    }
 
 	    public static  boolean findTaskByName(String name, ArrayList<Task> tasks) {
-	        for (Task task : tasks) {
+	        for (Task task : tasks) { // for every object present in the array
 	            if (task.getName().equals(name)) {
 	                return true;
 	            }

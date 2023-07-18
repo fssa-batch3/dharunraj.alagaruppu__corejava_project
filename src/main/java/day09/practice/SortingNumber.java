@@ -31,6 +31,7 @@ public class SortingNumber {
 		Collections.sort(num);
 		System.out.println("Your sorted array is : " + num);
 		
+		
 	}
 
 }

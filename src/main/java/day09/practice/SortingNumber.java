@@ -19,6 +19,7 @@ public class SortingNumber {
 		for (int i = 0; i < n; i++) {
 			num.add(sc.nextInt());
 
+			
 		}
 		sc.close();
 //		num.add(8);

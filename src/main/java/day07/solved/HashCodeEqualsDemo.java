@@ -58,12 +58,14 @@ public class HashCodeEqualsDemo {
 		HashSet<Employee> setOfEmps = new HashSet<>();
 		setOfEmps.add(emp1);
 		setOfEmps.add(emp2);
-
+		
+		 // below the code for each loop
 		for (Employee emp : setOfEmps) {
 			System.out.println(emp);
 		}
 
 		System.out.println("HashSet size:" + setOfEmps.size());
+		
 
 	}
 

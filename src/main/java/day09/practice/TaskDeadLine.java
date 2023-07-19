@@ -4,12 +4,12 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collections;
 
-class Task implements Comparable<Task> {
+class TaskDeadLineCompare implements Comparable<Task> {
 	private int id;
 	private String name;
 	private LocalDate deadline;
 
-	public Task(int id, String name, LocalDate deadline) {
+	public TaskDeadLineCompare(int id, String name, LocalDate deadline) {
 
 		this.id = id;
 		this.name = name;
@@ -66,15 +66,15 @@ public class TaskDeadLine {
 
 	public static void main(String[] args) {
 		
-		Task task1 = new Task(1 , "Running" ,LocalDate.of(2012,01,10));
+		TaskDeadLineCompare task1 = new TaskDeadLineCompare(1 , "Running" ,LocalDate.of(2012,01,10));
 
-		Task task2 = new Task(2 , "Working" ,LocalDate.of(2011,01,10));
+		TaskDeadLineCompare task2 = new TaskDeadLineCompare(2 , "Working" ,LocalDate.of(2011,01,10));
 		
-		Task task3 = new Task(3 , "Coding" ,LocalDate.of(2010,01,10));
+		TaskDeadLineCompare task3 = new TaskDeadLineCompare(3 , "Coding" ,LocalDate.of(2010,01,10));
 		
-		Task task4 = new Task(4 , "Playing" ,LocalDate.of(2013,01,10));
+		TaskDeadLineCompare task4 = new TaskDeadLineCompare(4 , "Playing" ,LocalDate.of(2013,01,10));
 		
-		Task task5 = new Task(5 , "Jacking" ,LocalDate.of(2014,01,10));
+		TaskDeadLineCompare task5 = new TaskDeadLineCompare(5 , "Jacking" ,LocalDate.of(2014,01,10));
 		
 		ArrayList<Task> arrTask = new ArrayList<>();
 		arrTask.add(task1);
@@ -85,7 +85,7 @@ public class TaskDeadLine {
 		
 		Collections.sort(arrTask);
 		
-		System.out.println(arrTask.toString());
+//		System.out.println(arrTask.toString());
 	} 
 
 }

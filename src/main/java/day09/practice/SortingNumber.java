@@ -18,20 +18,14 @@ public class SortingNumber {
 		System.out.println("Start enter value : ");
 		for (int i = 0; i < n; i++) {
 			num.add(sc.nextInt());
-			
+
 		}
 		sc.close();
-//		num.add(8);
-//		num.add(9);
-//		num.add(45);
-//		num.add(12);
-//		num.add(1);
- 
+
 		// Below the code for collection method
 		Collections.sort(num);
 		System.out.println("Your sorted array is : " + num);
-		
-		
+
 	}
 
 }

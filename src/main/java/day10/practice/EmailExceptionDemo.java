@@ -60,7 +60,6 @@ public class EmailExceptionDemo {
 			EmailValidator.isValidEmail(email);
 			System.out.println("Valid");
 		} catch (InvalidEmailException e) {
-
 			e.printStackTrace();
 		}
 

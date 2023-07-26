@@ -122,19 +122,19 @@ public class DuplicateTask {
 
 	}
 	
-	public static boolean validateDuplicatemethod(ArrayList<DuplicateTask> taskList) throws IllegalArgumentException{
-		
-		HashSet<String> taskSet = new HashSet<>();
-		for(DuplicateTask task:taskList) {
-			   String taskKey = task.getName() + "_" + task.getDeadline();
-			   if(taskSet.contains(taskKey)) {
-				   throw new IllegalArgumentException("duplicate task found");
-			   }
-			   taskSet.add(taskKey);
-		
-		}
-		return true;
-	}
+//	public static boolean validateDuplicatemethod(ArrayList<DuplicateTask> taskList) throws IllegalArgumentException{
+//		
+//		HashSet<String> taskSet = new HashSet<>();
+//		for(DuplicateTask task:taskList) {
+//			   String taskKey = task.getName() + "_" + task.getDeadline();
+//			   if(taskSet.contains(taskKey)) {
+//				   throw new IllegalArgumentException("duplicate task found");
+//			   }
+//			   taskSet.add(taskKey);
+//		
+//		}
+//		return true;
+//	}
 	
 	
 }

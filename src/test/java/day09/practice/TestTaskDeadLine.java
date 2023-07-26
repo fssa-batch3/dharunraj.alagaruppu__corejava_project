@@ -34,7 +34,9 @@ public class TestTaskDeadLine {
 		arrTask2.add(new TaskDeadLineCompare(5, "Jacking", LocalDate.of(2014, 01, 10)));
 
 		ArrayList<TaskDeadLineCompare> arrTask3 = new ArrayList<>();
+
 		arrTask3.add(new TaskDeadLineCompare(5, "Jacking", LocalDate.of(2014, 01, 10)));
+		
 		arrTask3.add(new TaskDeadLineCompare(1, "Running", LocalDate.of(2012, 01, 10)));
 
 		arrTask3.add(new TaskDeadLineCompare(2, "Working", LocalDate.of(2011, 01, 10)));
@@ -46,8 +48,7 @@ public class TestTaskDeadLine {
 		ArrayList<TaskDeadLineCompare> actualUniqueList1 = TaskDeadLineCompare.testCaseMethod(arrTask2);
 
 		Assertions.assertIterableEquals(actualUniqueList1, arrTask3);
-//		Assertions.assertIterableEquals(TaskDeadLineCompare.testCaseMethod(arrTask2),TaskDeadLineCompare.testCaseMethod(arrTask3));
-//		Assertions.assertTrue(TaskDeadLineCompare.testCaseMethod(arrTask2));
+
 
 	}
 
